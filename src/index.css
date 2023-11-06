@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: blue;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  background: blue;
+  padding: 20px;
+  color: white;
+}
+
+.gallery {
+  display: grid;
+  gap: 5px;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.p-3 {
+  padding: 30px;
+}
